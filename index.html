@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu Site Pessoal (versão estudante)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- topo -->
+  <header id="topo" class="topo-repetido">
+    <h1>Fundamentos da Programação Web – Atividade Prática</h1>
+    <div id="menu" class="menu" role="menubar">
+      <!-- 4 links principais pedidos no enunciado -->
+      <a href="#sobre">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portifólio</a>
+      <a href="#contato">Contatp</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- S O B R E -->
+    <section id="sobre">
+      <center class="foto-perfil">
+        <div class="ruido-tipografico">oi! eu sou o gabriel, estudante de engenharia de software :) </div>
+      </center>
+      <h1>Sobre mim</h1> <p>
+        Eu curto bastante a área de dev e estudo continuamente afim de melhorar meus conhecimentos.<br>
+        Meus hobbies: tocar violão, jogar umas partidas e aprender a codar.<br>
+        Já tenho experiência com alguns poucos sites que fiz para uns clientes.
+      </p>
+      <p>
+        <h2 style="margin-top:4px">Objetivo do site</h2>
+        Criar um site de portfólio com 4 links funcionando e um form visual.
+      </p>
+    </section>
+
+    <!-- F O R M A Ç Ã O -->
+    <section id="formacao">
+      <h1>Formação (educação & idiomas)</h1>
+      <div class="cartoes">
+        <div class="cartao" style="margin-left:13px">
+          <h3>Educação</h3>
+          <p>Ensino médio no Salesiano do Salvador <br> Faculdade de Design na Uniruy <br> Curso de html, css e JS do Gustavo Guanabara
+          <p>Engenharia de Software na Uninter (cursando)</p>
+        </div>
+        <div class="cartao">
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Português (nativo)</li>
+            <li>Inglês (intermediário)</li>
+          </ul>
+        </div>
+        <div class="cartao" style="margin-left:-7px">
+          <h3>Outros estudos</h3>
+          <p>Especialista em motion design e design gráfico</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- P O R T F Ó L I O -->
+    <section id="portfolio">
+      <h1>Portifólio de trabalhos já realizados</h1>
+      <ul>
+        <li><a href="https://www.vascularsymposium.org.br/" target="_blank">site de congresso médico</a></li>
+        <li><a href="https://www.motifmkt.com.br/" target="_blank">site para agência de mkt</a></li>
+        <li><a href="https://www.alfaenge.com/">site para setor de construção e engenharia</a></li>
+
+      </ul>
+    </section>
+
+    <!-- C O N T A T O -->
+    <section id="contato">
+      <h1>Contato</h1>
+      <form id="contato-formulario" action="#" method="get">
+        <label for="nome">Nome complet0</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome aqui...">
+
+        <div>Email</div>
+        <input name="e-mail" type="email" placeholder="voce@exemplo.com"> 
+
+        <label>Mensagem</label>
+        <textarea placeholder="Escreva sua mensagem"></textarea>
+
+        <button class="btn-enviar" type="submit">Enviar</button>
+      </form>
+
+      <a class="top-link" href="#topo">↑ voltar pro topo</a>
+    </section>
+  </main>
+
+  <footer id="rodape">
+
+    <small>© 2025 – Gabriel Brito Dias Coelho | RU: 5177470</small>
+  </footer>
+</body>
+</html>
